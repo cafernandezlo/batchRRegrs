@@ -14,7 +14,7 @@ We forked and modified the original [RRegrs](https://github.com/enanomapper/RReg
 
 * We completely remove the code for plotting the performance of the models from the original [RRegrs](https://github.com/enanomapper/RRegrs "RRegrs") and we just keep directly the models in the HDD and save the final vectors (Train and Validation) in order to externally compare the performance of the models and calculate the performance score.
 
-* Please, take into consideration that noCores = 0 means that you can control the number of cores directly from the [SLURM](http://slurm.schedmd.com/ "SLURM") call
+* Please, take into consideration that noCores = 0 means that you can control the number of cores directly from the [SLURM](http://slurm.schedmd.com/ "SLURM") call. Check the callingBatchRRegrs.sh in order to modify it.
 
 ## How to cite:
 `1. Under Review`
