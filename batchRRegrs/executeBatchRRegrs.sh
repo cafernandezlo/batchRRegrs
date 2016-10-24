@@ -1,0 +1,9 @@
+sbatch -N 1 -n 1 launcher.sh "c('LM')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 10 launcher.sh "c('ENET')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 10 launcher.sh "c('GLM')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 1 launcher.sh "c('PLS')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 1 launcher.sh "c('LASSO')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 10 launcher.sh "c('NN')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 20 launcher.sh "c('RF')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 20 launcher.sh "c('SVMRFE')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
+sbatch -N 1 -n 20 launcher.sh "c('RFRFE')" ds/paper2.preprocess.train.csv ds/paper2.preprocess.validation.csv DataResults/paper2
