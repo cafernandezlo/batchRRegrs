@@ -1263,7 +1263,7 @@ RFreg <- function(my.datf.train,my.datf.test,sCV,iSplit=1,fDet=F,outFile="") {
   ctrl<- trainControl(method=sCV, number=10,repeats=10,#number=10,repeats=10,
                       summaryFunction=defaultSummary)
   
-  tuneParam = data.frame(.mtry=c(2))
+  tuneParam = data.frame(.mtry=c(2:12))
   # Train the model using only training set
   #set.seed(iSplit)
   rf.fit<- train(net.c~.,data=my.datf.train,
