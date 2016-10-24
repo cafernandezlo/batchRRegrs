@@ -22,7 +22,7 @@ fsvmrfe<-'SVMRFE' %in% methodsList
 setwd('~/batchRRegrs')
 source('batchRRegrs.R')
 
-RRegrsResults = simpleRRegrs(DataFileName = datafilename, OutValidationFile = outvalidationfile,
+RRegrsResults = batchRRegrs(DataFileName = datafilename, OutValidationFile = outvalidationfile,
                        PathDataSet=pathdataset,
                        fDet="F",fFilters="F",fScaling="F",fRemNear0Var="F",fRemCorr="F",iScaling=1,iScalCol=1,fOutVal = "T",
                        fENET=fenet,fLM=flm,fGLM=fglm,fPLS=fpls,fLASSO=flasso,fSVRM=fsvrm,fNN=fnn,fRF=frf,fRFRFE=frfrfe,fSVMRFE=fsvmrfe,
