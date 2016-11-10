@@ -17,6 +17,6 @@ We forked and modified the original [RRegrs](https://github.com/enanomapper/RReg
 * Please, take into consideration that noCores = 0 means that you can control the number of cores directly from the [SLURM](http://slurm.schedmd.com/ "SLURM") call. Check the callingBatchRRegrs.sh in order to modify it.
 
 ## How to cite:
-`1. Under Review`
+`1. Yong Liu, Shaoxun Tang, Carlos Fernandez-Lozano, Cristian R Munteanu, Alejandro Pazos, Yi-zun Yu, Zhiliang Tan, Humberto González-Díaz, Experimental study and Random Forest prediction model of microbiome cell surface hydrophobicity, Expert Systems with Applications, Available online 9 November 2016, ISSN 0957-4174, http://dx.doi.org/10.1016/j.eswa.2016.10.058. (http://www.sciencedirect.com/science/article/pii/S0957417416306017)`
 
 `2. Tsiliki, G., Munteanu, C. R., Seoane, J. A., Fernandez-Lozano, C., Sarimveis, H., & Willighagen, E. L. (2015). RRegrs: an R package for computer-aided model selection with multiple regression models. Journal of Cheminformatics, 7, 46. http://doi.org/10.1186/s13321-015-0094-2`
